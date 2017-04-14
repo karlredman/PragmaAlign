@@ -1,0 +1,3 @@
+# Byte packing conversions using #pragma and C++
+
+If you've ever had to decode byte packing across a network from an Intel computer to a SPARC (little endian to big endian) or the other way around than you will know what kind of headache that can be. Throw in anonymous and variable length structures and your headache just became a migraine. This happened to me in 1999, and again in 2001, and again just recently (2003). This code "concept" may help you get an idea of how to go about re-byte-packing (2, 4, 8, etc.) in a relatively fast and efficient manner. The code becomes relatively easy to edit as well. The code has little or no explanation attached to it for now, but you'll get the idea if you know what you are looking for.
