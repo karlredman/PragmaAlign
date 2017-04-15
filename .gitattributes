@@ -1,9 +1,9 @@
 ## nuklear option
 #* linguist-vendored
 ## languag usage
-*.c linguist-language=c
-*.cc linguist-language=cpp
-*.C linguist-language=cpp
+#*.c linguist-language=c
+#*.cc linguist-language=cpp
+#*.C linguist-language=cpp
 ## Standard documentation
 AUTHORS linguist-documentation
 COPYING linguist-documentation
@@ -25,6 +25,6 @@ Makefile.am linguist-vendored
 Makefile.in linguist-vendored
 Makefile linguist-vendored
 makefile linguist-vendored
-# Project files
+# My Project files
 *.dia linguist-documentation
 *.eps linguist-documentation
